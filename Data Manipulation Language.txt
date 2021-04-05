@@ -1,0 +1,94 @@
+*****Product table*****
+INSERT INTO Product
+(
+Product ID,
+Product_Name,
+Category,
+Price
+)
+VALUES
+(
+P01,
+Samsung Galaxy S20,
+Smart Phone,
+3299
+);
+INSERT INTO Product
+(
+Product ID,
+Product_Name,
+Category,
+Price
+)
+VALUES
+(
+P02,
+Asus Notebook,
+PC,
+4599
+);
+****customer table****
+INSERT INTO Customer
+(
+Customer ID,
+Customer_Name,
+Customer_Tel
+
+)
+VALUES
+(
+C01,
+Ali,
+71321009
+
+);
+
+INSERT INTO Customer
+(
+Customer ID,
+Customer_Name,
+Customer_Tel
+
+)
+VALUES
+(
+C02,
+Asma,
+77345823
+
+);
+
+****orders table****
+INSERT INTO Orders
+(
+Customer_ID,
+Product ID,
+order_date,
+quantity,
+Total_amount
+)
+VALUES
+(
+C01,
+P01,
+Null,
+2,
+9198
+);
+
+INSERT INTO Orders
+(
+Customer_ID,
+Product ID,
+order_date,
+quantity,
+Total_amount
+)
+VALUES
+(
+C02,
+P02,
+28/05/2020,
+1,
+3299
+);
